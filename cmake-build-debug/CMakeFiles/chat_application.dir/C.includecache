@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/config.h
+
+../include/head.h
+config.h
+../include/config.h
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+sys/socket.h
+-
+sys/time.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+unistd.h
+-
+string.h
+-
+
+/home/lzh/sourcecode/PrivateRep/chat_application/src/actions.c
+head.h
+/home/lzh/sourcecode/PrivateRep/chat_application/src/head.h
+
+/home/lzh/sourcecode/PrivateRep/chat_application/src/server.c
+head.h
+-
+
